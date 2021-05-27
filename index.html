@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Northwestern University Dorms</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Northwestern University Dorms</h1>
+            <h3>For students, by students.</h3>
+        </header>
+        <main>
+            <form id="form">
+                <input type="search" placeholder="Search..">
+                <button>Search</button>
+            </form>
+
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction(this, 'dd1')">Location
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="dd1">
+                        <a href="#">North Campus</a>
+                        <a href="#">South Campus</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction(this, 'dd2')">Size
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="dd2">
+                        <a href="#">50-100 students</a>
+                        <a href="#">100-150 students</a>
+                        <a href="#">150+ students</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction(this, 'dd3')">Reviews
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="dd3">
+                        <a href="#">5 stars</a>
+                        <a href="#">4 stars</a>
+                        <a href="#">3 stars</a>
+                        <a href="#">2 stars</a>
+                        <a href="#">1 star</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction(this, 'dd4')">More
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="dd4">
+                        <a href="#">A/C</a>
+                        <a href="#">Proximity to Dining Hall</a>
+                        <a href="#">Residential Colleges</a>
+                    </div>
+                </div> 
+
+              </div>
+            
+            
+
+                <div class="Allison">
+                    <section id="image-allison">
+                        <img src="https://news.northwestern.edu/assets/Stories/2017/05/_resampled/CroppedFocusedImageWzY0MCwzNjAsInkiLDFd/allisonhall0209.jpg" style="width: 250px;height:200px;">
+                    </section>
+
+                    <section id="name-allison">
+                        <h2>Allison Hall</h2>
+                        <p>South Campus</p>
+                    </section>
+
+                    <div class="star-rating-allison">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+
+                    <div class="allison-tags">
+                        <section id="allison-tag-1">
+                            <p>A/C</p>
+                        </section>
+
+                        <section id="allison-tag-2">
+                            <p>In-House Dining Hall</p>
+                        </section>
+
+                        <section id="allison-tag-3">
+                            <p>250-300 students</p>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="Bobb">
+                    <section id="image-bobb">
+                        <img src="https://dailynorthwestern.com/wp-content/uploads/2018/11/MOLDGATE-ColinBoyle-3_WEB-900x601.jpg" style="width: 250px;height:200px;">
+                    </section>
+
+                    <section id="name-bobb">
+                        <h2>Bobb Hall</h2>
+                        <p>North Campus</p>
+                    </section>
+
+                    <div class="star-rating-bobb">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                    <div class="bobb-tags">
+                        <section id="bobb-tag-1">
+                            <p>A/C</p>
+                        </section>
+
+                        <section id="bobb-tag-2">
+                            <p>No In-House Dining Hall</p>
+                        </section>
+
+                        <section id="bobb-tag-3">
+                            <p>+200 students</p>
+                        </section>
+                    </div>
+                </div>
+        </main>
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>

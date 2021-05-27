@@ -1,0 +1,318 @@
+header {
+    font-family: "Campton Book", Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #4e2a84;
+}
+
+#form {
+    height: 10px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #4e2a84;
+    font-family: "Campton Book", Tahoma, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.Allison {
+    font-family: "Campton Book", Tahoma, sans-serif;
+    color: white;
+    background-color: #4e2a84;
+    margin-bottom: 10px;
+}
+
+#image-allison {
+    padding: 15px;
+}
+
+.checked {
+    color: orange;
+}
+
+.star-rating-allison {
+    position: relative;
+    left: 1%;
+    top: 23px;
+}
+
+.star-rating-allison, #name-allison {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#name-allison, #image-allison {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#allison-tag-1, #allison-tag-2, #allison-tag-3 {
+    text-align: center;
+    line-height: 15px;
+    color: black;
+    background-color:#E4E0EE;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.allison-tags {
+    position: relative;
+    left: 255px;
+    bottom: 100px;
+
+}
+
+#allison-tag-1 {
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+
+#allison-tag-2 {
+    width: 175px;
+    position: relative;
+    left: 50px;
+}
+
+#allison-tag-3 {
+    width: 150px;
+    position: relative;
+    left: 73px;
+}
+
+.Bobb {
+    font-family: "Campton Book", Tahoma, sans-serif;
+    color: white;
+    background-color: #4e2a84;
+}
+
+#image-bobb {
+    padding: 15px;
+}
+
+.star-rating-bobb {
+    position: relative;
+    left: 1%;
+    top: 23px;
+}
+
+.star-rating-bobb, #name-bobb {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#name-bobb, #image-bobb {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#bobb-tag-1, #bobb-tag-2, #bobb-tag-3 {
+    text-align: center;
+    line-height: 15px;
+    color: black;
+    background-color:#E4E0EE;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bobb-tags {
+    position: relative;
+    left: 255px;
+    bottom: 100px;
+
+}
+
+#bobb-tag-1 {
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+
+#bobb-tag-2 {
+    width: 190px;
+    position: relative;
+    left: 50px;
+}
+
+#bobb-tag-3 {
+    width: 150px;
+    position: relative;
+    left: 73px;
+}
+
+.Allison-Page {
+    font-family: "Campton Book", Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#name-allison-page, #image-allison-page {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#name-allison-page {
+    margin-bottom: 10px;
+}
+
+#image-allison-page {
+    padding: 15px;
+}
+
+.star-rating-allison-page, #name-allison-page {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.star-rating-allison-page {
+    position: relative;
+    top: 29px;
+}
+
+#number-reviews, .star-rating-allison-page {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#number-reviews {
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+
+.row {
+    margin-left: 290px;
+    margin-top: -125px;
+    font-family: "Campton Book", Tahoma, sans-serif;
+}
+.side {
+    width: 14%;
+    margin-top: 10px;
+  }
+
+  .side-right {
+      float: right;
+  }
+  
+  .middle {
+    width: 60%;
+    margin-top: 10px;
+  }
+
+  .side, .middle {
+      display: inline-block;
+      vertical-align: middle;
+  }
+  
+  /* Place text to the left */
+  .left {
+    text-align: left;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 60%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 90%; height: 18px; background-color: #04AA6D;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+      display: none;
+    }
+  }
+
+#Review-1 {
+    font-family: "Campton Book", Tahoma, sans-serif;
+    color: black;
+    background-color:lightgray;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+#review-1-description {
+    position: relative;
+    left: 300px;
+    bottom: 150px;
+}
