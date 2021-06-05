@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="review.css">
+<body>
+
+    <header>
+        <h1>Northwestern University Dorms</h1>
+        <h3>For students, by students.</h3>
+    </header>
+
+    <section id="LeaveReview">
+        <h1>Leave a Review</h1>
+    </section>
+
+    <h2>About You</h2>
+    
+    <form action="/action_page.php">
+      <label for="fname">Class Standing:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="lname">Gender (optional):</label><br>
+      <input type="text" id="lname" name="lname" value=""><br>
+      <label for="school">School:</label><br>
+      <input type="text" id="school" name="school" value=""><br>
+    </form> 
+
+    <section id="background">
+    
+        <h2>Rate Allison Hall in terms of:</h2>
+
+        <h3>Location</h3>
+
+        <section id="North">
+            <p>North</p>
+        </section>
+
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <section id="South">
+            <p>South</p>
+        </section>
+
+        <h3>Social Life</h3>
+
+        <section id="NotSocial">
+            <p>Not Social</p>
+        </section>
+
+        <div class="slidecontainer-2">
+            <input type="range" min="1" max="100" value="50" class="slider-2" id="myRange">
+        </div>
+
+        <section id="Social">
+            <p>Social</p>
+        </section>
+
+        <h3>Room Size</h3>
+
+        <section id="Small">
+            <p>Small</p>
+        </section>
+
+        <div class="slidecontainer-3">
+            <input type="range" min="1" max="100" value="50" class="slider-3" id="myRange">
+        </div>
+
+        <section id="Large">
+            <p>Large</p>
+        </section>
+
+        <h3>Amenities</h3>
+
+        <section id="PoorDirty">
+            <p>Poor/Dirty</p>
+        </section>
+
+        <div class="slidecontainer-4">
+            <input type="range" min="1" max="100" value="50" class="slider-4" id="myRange">
+        </div>
+
+        <section id="NiceClean">
+            <p>Nice/Clean</p>
+        </section>
+
+        <section id="OverallRating">
+            <h3>Overall Rating: </h3>
+        </section>
+
+        <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+
+        <h2>Would you like to share anything else?</h2>
+        
+        <section id="ReviewForm">
+            <form action="/action_page.php">
+                <textarea id="w3review" name="w3review" rows="10" cols="100">
+                  Share details of your experience here...
+                  </textarea>
+                  <br><br>
+            </form>
+        </section>
+
+        <section id="buttons">
+            <button type="button">Submit</button>
+            <button type="button">Cancel</button>
+        </section>
+
+    </section>
+
+    
+    </body>
