@@ -1,116 +1,254 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="review.css">
+<link rel="stylesheet" href="matching.css">
+
+<head>
+    <title>Leave a Review</title>
+</head>
+
+<header>
+    <h1>Northwestern University Dorms</h1>
+    <h3>For students, by students.</h3>
+</header>
+
 <body>
-
-    <header>
-        <h1>Northwestern University Dorms</h1>
-        <h3>For students, by students.</h3>
-    </header>
-
-    <section id="LeaveReview">
-        <h1>Leave a Review</h1>
-    </section>
-
-    <h2>About You</h2>
-    
-    <form action="/action_page.php">
-      <label for="fname">Class Standing:</label><br>
-      <input type="text" id="fname" name="fname" value=""><br>
-      <label for="lname">Gender (optional):</label><br>
-      <input type="text" id="lname" name="lname" value=""><br>
-      <label for="school">School:</label><br>
-      <input type="text" id="school" name="school" value=""><br>
-    </form> 
-
-    <section id="background">
-    
-        <h2>Rate Allison Hall in terms of:</h2>
-
-        <h3>Location</h3>
-
-        <section id="North">
-            <p>North</p>
-        </section>
-
-        <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    <h2>Leave a Review</h2>
+   
+    <!-- Create Form -->
+    <form id="form">
+  
+        <!-- Details -->
+        <div class="form-control">
+            <label for="class" id="label-class">
+                What's your class standing?
+            </label>
+              
+            <!-- Dropdown options -->
+            <select name="class" id="class">
+                <option value="student">Freshman</option>
+                <option value="intern">Sophomore</option>
+                <option value="professional">
+                    Junior
+                </option>
+                <option value="other">Senior+</option>
+            </select>
         </div>
-
-        <section id="South">
-            <p>South</p>
-        </section>
-
-        <h3>Social Life</h3>
-
-        <section id="NotSocial">
-            <p>Not Social</p>
-        </section>
-
-        <div class="slidecontainer-2">
-            <input type="range" min="1" max="100" value="50" class="slider-2" id="myRange">
-        </div>
-
-        <section id="Social">
-            <p>Social</p>
-        </section>
-
-        <h3>Room Size</h3>
-
-        <section id="Small">
-            <p>Small</p>
-        </section>
-
-        <div class="slidecontainer-3">
-            <input type="range" min="1" max="100" value="50" class="slider-3" id="myRange">
-        </div>
-
-        <section id="Large">
-            <p>Large</p>
-        </section>
-
-        <h3>Amenities</h3>
-
-        <section id="PoorDirty">
-            <p>Poor/Dirty</p>
-        </section>
-
-        <div class="slidecontainer-4">
-            <input type="range" min="1" max="100" value="50" class="slider-4" id="myRange">
-        </div>
-
-        <section id="NiceClean">
-            <p>Nice/Clean</p>
-        </section>
-
-        <section id="OverallRating">
-            <h3>Overall Rating: </h3>
-        </section>
-
-        <div class="star-rating">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-        </div>
-
-        <h2>Would you like to share anything else?</h2>
+       
         
-        <section id="ReviewForm">
-            <form action="/action_page.php">
-                <textarea id="w3review" name="w3review" rows="10" cols="100">
-                  Share details of your experience here...
-                  </textarea>
-                  <br><br>
-            </form>
-        </section>
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Gender (optional)
+            </label>
+  
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Gender (optional)" />
+        </div>
+   
+        <div class="form-control">
+            <label for="school" id="school">
+                School
+            </label>
+              
+            <!-- Dropdown options -->
+            <select name="school" id="school">
+                <option value="weinberg">Weinberg</option>
+                <option value="communication">School of Communication</option>
+                <option value="SESP">
+                    SESP
+                </option>
+                <option value="McCormick">McCormick</option>
+                <option value="Medill">Medill</option>
+                <option value="Medill">Bienen</option>
+            </select>
+        </div>
+   
+        <div class="form-control">
+            <label>
+                How is the dorm's location?
+                <small>(Select just one)</small>
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="checkbox"
+                       id="recommed-1"
+                       name="recommed">Far South</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       id="recommed-2"
+                       name="recommed">South</input>
+            </label>
+            <label for="recommed-3">
+                <input type="checkbox"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="checkbox"
+                       id="recommed-4"
+                       name="recommed">North</input>
+            </label>
+            <label for="recommed-5">
+                <input type="checkbox"
+                       id="recommed-5"
+                       name="recommed">Far North</input>
+            </label>
+        </div>
 
-        <section id="buttons">
-            <button type="button">Submit</button>
-            <button type="button">Cancel</button>
-        </section>
+        <div class="form-control">
+            <label>
+                How is the dorm's social life?
+                <small>(Select just one)</small>
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="checkbox"
+                       id="recommed-1"
+                       name="recommed">Very Social</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       id="recommed-2"
+                       name="recommed">Social</input>
+            </label>
+            <label for="recommed-3">
+                <input type="checkbox"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="checkbox"
+                       id="recommed-4"
+                       name="recommed">Not Very Social</input>
+            </label>
+            <label for="recommed-5">
+                <input type="checkbox"
+                       id="recommed-5"
+                       name="recommed">Not Social At All</input>
+            </label>
+        </div>
+        
+        <div class="form-control">
+            <label>
+                Rate the size of the dorm room you stayed in.
+                <small>(Select just one)</small>
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="checkbox"
+                       id="recommed-1"
+                       name="recommed">Very Large</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       id="recommed-2"
+                       name="recommed">Appropiately Large</input>
+            </label>
+            <label for="recommed-3">
+                <input type="checkbox"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="checkbox"
+                       id="recommed-4"
+                       name="recommed">Small</input>
+            </label>
+            <label for="recommed-5">
+                <input type="checkbox"
+                       id="recommed-5"
+                       name="recommed">Very Small</input>
+            </label>
+        </div>
 
-    </section>
+        <div class="form-control">
+            <label>
+                How would you rate the dorm's amenities?
+                <small>(Select just one)</small>
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="checkbox"
+                       id="recommed-1"
+                       name="recommed">Very Nice/Clean</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       id="recommed-2"
+                       name="recommed">Nice/Clean</input>
+            </label>
+            <label for="recommed-3">
+                <input type="checkbox"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="checkbox"
+                       id="recommed-4"
+                       name="recommed">Poor/Dirty</input>
+            </label>
+            <label for="recommed-5">
+                <input type="checkbox"
+                       id="recommed-5"
+                       name="recommed">Very Poor/Dirty</input>
+            </label>
+        </div>
 
-    
-    </body>
+        <div class="form-control">
+            <label>
+                What's your overall rating?
+                <small>(Select just one)</small>
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="checkbox"
+                       id="recommed-1"
+                       name="recommed">1 star</input>
+            </label>
+            <label for="recommed-2">
+                <input type="checkbox"
+                       id="recommed-2"
+                       name="recommed">2 stars</input>
+            </label>
+            <label for="recommed-3">
+                <input type="checkbox"
+                       id="recommed-3"
+                       name="recommed">3 stars</input>
+            </label>
+            <label for="recommed-4">
+                <input type="checkbox"
+                       id="recommed-4"
+                       name="recommed">4 stars</input>
+            </label>
+            <label for="recommed-5">
+                <input type="checkbox"
+                       id="recommed-5"
+                       name="recommed">5 stars</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Would you like to share anything else?
+            </label>
+  
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Share details of your experience here...">
+            </textarea>
+        </div>
+   
+        <!-- Multi-line Text Input Control -->
+        <button class="submit" href='allison.html' value="submit">
+            Submit
+        </button>
+        <button class="submit" href='allison.html' value="submit">
+            Cancel
+        </button>
+    </form>
+</body>
