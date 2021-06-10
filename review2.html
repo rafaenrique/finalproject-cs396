@@ -1,0 +1,242 @@
+<link rel="stylesheet" href="matching.css">
+
+<header>
+    <h1>Northwestern University Dorms</h1>
+    <h3>For students, by students.</h3>
+</header>
+
+<body>
+    <h2>Leave a Review</h2>
+   
+    <!-- Create Form -->
+    <form id="form">
+  
+        <!-- Details -->
+        <div class="form-control">
+            <label for="role" id="label-role">
+                What's your class standing?
+            </label>
+              
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Freshman</option>
+                <option value="intern">Sophomore</option>
+                <option value="professional">
+                    Junior
+                </option>
+                <option value="other">Senior+</option>
+            </select>
+        </div>
+       
+        
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Gender (optional)
+            </label>
+  
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Gender (optional)" />
+        </div>
+   
+        <div class="form-control">
+            <label for="role" id="label-role">
+                School
+            </label>
+              
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="weinberg">Weinberg</option>
+                <option value="communication">School of Communication</option>
+                <option value="SESP">
+                    SESP
+                </option>
+                <option value="McCormick">McCormick</option>
+                <option value="Medill">Medill</option>
+                <option value="Medill">Bienen</option>
+            </select>
+        </div>
+   
+        <div class="form-control">
+            <label>
+                How is the dorm's location?
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Far South</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">South</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">North</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Far North</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>
+                How is the dorm's social life?
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Very Social</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Social</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">Not Very Social</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Not Social At All</input>
+            </label>
+        </div>
+        
+        <div class="form-control">
+            <label>
+                Rate the size of the dorm room you stayed in.
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Very Large</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Appropiately Large</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">Small</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Very Small</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>
+                How would you rate the dorm's amenities?
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Very Nice/Clean</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Nice/Clean</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Neutral</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">Poor/Dirty</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Very Poor/Dirty</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>
+                What's your overall rating?
+            </label>
+  
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">1 star</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">2 stars</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">3 stars</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">4 stars</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">5 stars</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Would you like to share anything else?
+            </label>
+  
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Share details of your experience here...">
+            </textarea>
+        </div>
+   
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
