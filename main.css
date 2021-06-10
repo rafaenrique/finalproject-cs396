@@ -101,12 +101,6 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
-  
-  a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-  }
 
 #image-allison {
     padding: 15px;
